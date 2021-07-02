@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { ThemeContext } from '@emotion/core';
+import { ThemeContext } from '@emotion/react';
 import { useEffect } from 'react';
 import { Dimensions, ScaledSize, Platform } from 'react-native';
 import { useCallback } from 'react';

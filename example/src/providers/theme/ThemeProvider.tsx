@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { ApplicationProvider } from '@ui-kitten/components';
 import { mapping } from '@eva-design/eva';
-import { ThemeProvider as EmotionProvider } from 'emotion-theming';
+import { ThemeProvider as EmotionProvider } from '@emotion/react';
 import { useColorScheme } from 'react-native-appearance';
 
 import { ThemeContext } from './ThemeContext';
